@@ -1,0 +1,321 @@
+.mediaViewInfo {
+    --web-view-name: index –1;
+    --web-view-id: index;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids:index;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#index {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    background-color: rgba(0,0,0,1);
+    overflow: hidden;
+    --web-view-name: index -1;
+    --web-view-id: index;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+#sss {
+    position: absolute;
+    width: 1336px;
+    height: 1002px;
+    left: 76px;
+    top: 78px;
+    overflow: visible;
+    animation: im .8s forwards 1s ease-in-out;
+}
+#Path {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Path {
+    overflow: visible;
+    position: absolute;
+    width: 1059.936px;
+    height: 1004.801px;
+    left: 861.5px;
+    top: 76.199px;
+    transform: matrix(1,0,0,1,0,0);
+    animation: re .8s forwards 1s ease-in-out;
+}
+#Re {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(255,255,255,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Re {
+    position: absolute;
+    overflow: visible;
+    width: 2px;
+    height: 1004px;
+    left: 74px;
+    top: 76px;
+    animation: rect .8s forwards 1s ease-in-out ;
+}
+
+#Rec {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(255,255,255,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+    animation: rect1 .4s forwards 1s ease-in-out ;
+}
+.Rec {
+    width: 2px;
+    height: 1846px;
+    position: absolute;
+    overflow: visible;
+    transform: matrix(1,0,0,1,996.0001,-846.0002) rotate(90deg);
+    transform-origin: center;
+}
+.WORKS {
+    left: 312px;
+    top: 502px;
+    position: absolute;
+    overflow: visible;
+    width: 156px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    animation: works .7s forwards 1s ease-in-out ;
+}
+.WORKS {
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+  }
+  
+  .WORKS:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .WORKS:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .WORKS {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    margin: 10px;
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transform;
+  }
+  
+  .WORKS:hover,
+  .WORKS:focus,
+  .WORKS:active {
+    box-shadow: 1px 10px 10px -10px rgba(255, 255, 255, 0.5);
+    transform: scale(1.2);
+  }
+
+.CONTACT {
+    left: 740px;
+    top: 502px;
+    position: absolute;
+    overflow: visible;
+    width: 200px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(255,255,255,1);
+    animation: contact .6s forwards 1s ease-in-out ;
+}
+.CONTACT {
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+  }
+  
+  .CONTACT:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .CONTACT:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .CONTACT {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    margin: 10px;
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transform;
+  }
+  
+  .CONTACT:hover,
+  .CONTACT:focus,
+  .CONTACT:active {
+    box-shadow: 1px 10px 10px -10px rgba(255, 255, 255, 0.5);
+    transform: scale(1.2);
+  }
+
+.ABOUT {
+    left: 1200px;
+    top: 502px;
+    position: absolute;
+    overflow: visible;
+    width: 141px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(0,0,0,1);
+    animation: about .8s forwards 1s ease-in-out ;
+
+}
+.ABOUT {
+    display: inline-block;
+    position: relative;
+    color: #000000;
+  }
+  
+.ABOUT:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+.ABOUT:hover:after{
+    transform:scaleX(1);
+    transform-origin: bottom left;
+}
+.ABOUT{
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    margin: 10px;
+    transition-duration: 0.3s;
+    transition-property: box shadow,transform;
+}
+.ABOUT:hover
+.ABOUT:focus
+.ABOUT:active{
+    box-shadow: 1px 10px 10px rgba(0,0,24,0.5);
+    transform: scale(1.2);
+}
+    
+
+//keyframes
+
+@keyframes works{
+    from{
+        transform: translateY(600%) ;
+    }
+    to{
+        transform: translateY(0%) ;
+    }
+}
+@keyframes contact{
+    from{
+        transform: translateY(-600%) ;
+    }
+    to{
+        transform: translateY(0%) ;
+    }
+}
+@keyframes about{
+    from{
+        transform: translateX(600%) ;
+    }
+    to{
+        transform: translateX(0%) ;
+    }
+}
+@keyframes rect1{
+    from{
+        transform: translateX(600%) ;
+    }
+    to{
+        transform: translateX(0%) ;
+    }
+}
+@keyframes rect{
+    from{
+        transform: translateX(600%) ;
+    }
+    to{
+        transform: translateX(0%) ;
+    }
+}
+@keyframes im{
+    from{
+        transform: translateY-(100%) ;
+        transform: translateX(-200%) ;
+
+
+    }
+    to{
+        transform: translateX(0%) ;
+    }
+}
+@keyframes re{
+    from{
+        transform: translateY(100%) ;
+        transform: translateX(200%) ;
+
+
+    }
+    to{
+        transform: translateX(0%) ;
+    }
+}
